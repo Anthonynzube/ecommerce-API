@@ -55,6 +55,7 @@ class ProductController extends Controller
         return response([
             "data" => new ProductResource($product)
         ], Response::HTTP_CREATED);
+        
     }
 
     /**
