@@ -26,7 +26,7 @@ trait ExceptionTrait
                     return $this->methodResponse($e);
                 }
 
-                    return parent::render($request, $exception);
+                    return parent::render($request, $e);
 
     }
 
