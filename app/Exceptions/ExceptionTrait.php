@@ -48,7 +48,7 @@ trait ExceptionTrait
     protected function modelResponse($e)
     {
         return response()->json([
-                'errors' => 'Product Model Not Found'
+                'errors' => 'Model Not Found'
             ], Response::HTTP_NOT_FOUND);
     }
 
