@@ -2,11 +2,15 @@
 
 A REST API for an ecommerce application using [Laravel](https://laravel.com), it features the users, products, and reviews
 
+
 ## Usage
+
 
 ## Products
 
+
 ### Show all products
+
 
 ```GET Request``` 
 
@@ -18,7 +22,9 @@ Example Request
 
 ```curl --location --request GET 'localhost:8000/api/products'```
 
+
 ### Show a particular product
+
 
 ```GET Request```
 
@@ -30,7 +36,9 @@ Example Request
 
 ```curl --location --request GET 'http://localhost:8000/api/products/1'```
 
+
 ### Create a product
+
 
 ```POST Request```
 
@@ -73,7 +81,9 @@ curl --location --request POST 'localhost:8000/api/products/' \
 }'
 ```
 
+
 ### Update a product
+
 
 ```PUT Request```
 
@@ -112,7 +122,9 @@ curl --location --request PUT 'localhost:8000/api/products/55' \
 }'
 ```
 
+
 ### Delete a product
+
 
 ```DEL Request```
 
@@ -138,9 +150,12 @@ curl --location --request DELETE 'localhost:8000/api/products/10' \
 --data-raw ''
 ```
 
+
 ## Reviews
 
+
 ### Create a Review
+
 
 ```POST Request```
 
@@ -176,7 +191,9 @@ curl --location --request POST 'localhost:8000/api/products/5/review' \
 }'
 ```
 
+
 ### Update a Review
+
 
 ```PUT Request```
 
@@ -212,7 +229,9 @@ curl --location --request PUT 'localhost:8000/api/products/5/review/301' \
 }'
 ```
 
+
 ### Delete a Review
+
 
 ```DEL Request```
 
@@ -246,7 +265,9 @@ curl --location --request DELETE 'localhost:8000/api/products/5/review/301' \
 }'
 ```
 
+
 ### Show all reviews for a particular product
+
 
 ```GET Request```
 
@@ -261,7 +282,9 @@ Example Request
 
 ## OAuth
 
+
 ### Get Token
+
 
 ```POST Request``` 
 
