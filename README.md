@@ -295,9 +295,9 @@ curl --location --request POST 'localhost:8000/api/products/5/review' \
 }'
 ```
 
-```
 Sample Output
 
+```
 {
     "data": {
         "id": 303,
